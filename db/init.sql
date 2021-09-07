@@ -1,3 +1,6 @@
+CREATE database IF NOT EXISTS xxl_job;
+
+
 use xxl_job;
 
 CREATE TABLE `pst_dag_job` (
@@ -18,7 +21,7 @@ CREATE TABLE `pst_dag_job` (
   `curr_run_record` varchar(255) NOT NULL,
   `executor_block_strategy` varchar(255) NOT NULL,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `xxl_job_group` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -28,7 +31,7 @@ CREATE TABLE `xxl_job_group` (
   `address_list` text COMMENT '执行器地址列表，多地址逗号分隔',
   `update_time` datetime DEFAULT NULL,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ciENT=3 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `xxl_job_info` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -57,7 +60,7 @@ CREATE TABLE `xxl_job_info` (
   `trigger_next_time` bigint NOT NULL DEFAULT '0' COMMENT '下次调度时间',
   `dag_run_record` varchar(255) DEFAULT NULL,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 ;
 
 CREATE TABLE `xxl_job_lock` (
   `lock_name` varchar(50) NOT NULL COMMENT '锁名称',
@@ -85,7 +88,7 @@ CREATE TABLE `xxl_job_log` (
   PRIMARY KEY (`id`),
 KEY `I_trigger_time` (`trigger_time`),
 KEY `I_handle_code` (`handle_code`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 ;
 
 CREATE TABLE `xxl_job_log_report` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -96,7 +99,7 @@ CREATE TABLE `xxl_job_log_report` (
   `update_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
 UNIQUE KEY `i_trigger_day` (`trigger_day`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 ;
 
 CREATE TABLE `xxl_job_logglue` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -107,7 +110,7 @@ CREATE TABLE `xxl_job_logglue` (
   `add_time` datetime DEFAULT NULL,
   `update_time` datetime DEFAULT NULL,
 PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 ;
 
 CREATE TABLE `xxl_job_registry` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -117,7 +120,7 @@ CREATE TABLE `xxl_job_registry` (
   `update_time` datetime DEFAULT NULL,
   PRIMARY KEY (`id`),
 KEY `i_g_k_v` (`registry_group`,`registry_key`,`registry_value`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
 
 CREATE TABLE `xxl_job_user` (
   `id` int NOT NULL AUTO_INCREMENT,
@@ -127,4 +130,4 @@ CREATE TABLE `xxl_job_user` (
   `permission` varchar(255) DEFAULT NULL COMMENT '权限：执行器ID列表，多个逗号分割',
   PRIMARY KEY (`id`),
 UNIQUE KEY `i_username` (`username`) USING BTREE
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_0900_ai_ci;
+) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8mb4;
