@@ -228,7 +228,7 @@
 
 <#macro commonFooter >
 	<footer class="main-footer">
-        Powered by <b>XXL-JOB-作业调度</b> ${I18n.admin_version}
+        Powered by <b>${I18n.admin_max_name}-作业调度</b> ${I18n.admin_version}
 		<div class="pull-right hidden-xs">
             <strong>Copyright &copy; 2020-${.now?string('yyyy')} &nbsp;
 <#--                <a href="https://www.xuxueli.com/" target="_blank" >xuxueli</a>-->
