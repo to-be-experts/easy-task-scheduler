@@ -1,0 +1,15 @@
+/.svn
+/.idea
+/lib_plugin
+/temp
+/xxl-job-admin/target
+/xxl-job-core/target
+/xxl-job-executor/xxl-job-executor-gzkg/target
+/xxl-job-executor/xxl-job-executor-gzkg/xxl-job-executor-gzkg.iml
+/xxl-job-executor/xxl-job-executor.iml
+/xxl-job-admin/xxl-job-admin.iml
+/xxl-job-core/xxl-job-core.iml
+/logs
+/task-schedle.iml
+/xxl-job-executor/xxl-job-executor-simple/target
+/xxl-job-executor/xxl-job-executor-simple/xxl-job-executor-simple.iml
