@@ -12,7 +12,7 @@
 
 	<modules>
 		<module>./scheduler-core</module>
-		<module>./scheduler-admin</module>
+		<module>./scheduler-api</module>
 		<module>./scheduler-executor</module>
     </modules>
 

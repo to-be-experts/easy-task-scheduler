@@ -1,7 +1,11 @@
-# task-schedule
-在xxl job 的基础上 增加任务dag调度
+# easy-task-scheduler
 
-相关详情请查看原作者项目 [xxl-job](https://www.xuxueli.com.yueshuo.scheduler/)
+# Introduction
+easy-task-schedule是一个分布式任务调度框架、参考了xxl-job、schedule-x的设计实现。
 
-# 其他
-本项目基于xxl-job进行修改，如有侵权请联系 [邮箱:yygqn7@163.com](yygqn7@163.com) 进行删除
+# Install
+
+# Connect
+本项目对xxL-job设计思想有所参考，如有侵权请联系 [邮箱:yygqn7@163.com](yygqn7@163.com) 进行删除
+
+# License
