@@ -1,4 +1,4 @@
-//package com.xxl.job.core.util;
+//package com.yueshuo.scheduler.core.util;
 //
 ///**
 // * sharding vo

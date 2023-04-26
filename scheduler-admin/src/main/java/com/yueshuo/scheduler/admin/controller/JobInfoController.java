@@ -14,10 +14,10 @@ import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 import com.yueshuo.scheduler.admin.dao.XxlJobGroupDao;
 import com.yueshuo.scheduler.admin.service.LoginService;
 import com.yueshuo.scheduler.admin.service.XxlJobService;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.enums.ExecutorBlockStrategyEnum;
-import com.xxl.job.core.glue.GlueTypeEnum;
-import com.xxl.job.core.util.DateUtil;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.enums.ExecutorBlockStrategyEnum;
+import com.yueshuo.scheduler.core.glue.GlueTypeEnum;
+import com.yueshuo.scheduler.core.util.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Controller;
@@ -169,7 +169,7 @@ public class JobInfoController {
 			}
 		} catch (Exception e) {
 			logger.error(e.getMessage(), e);
-			return new ReturnT<List<String>>(ReturnT.FAIL_CODE, (I18nUtil.getString("schedule_type")+I18nUtil.getString("system_unvalid")) + e.getMessage());
+			return new ReturnT<>(ReturnT.FAIL_CODE, (I18nUtil.getString("schedule_type")+I18nUtil.getString("system_unvalid")) + e.getMessage());
 		}
 		return new ReturnT<List<String>>(result);
 

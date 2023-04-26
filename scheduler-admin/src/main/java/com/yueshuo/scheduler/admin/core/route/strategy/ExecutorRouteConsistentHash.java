@@ -1,8 +1,8 @@
 package com.yueshuo.scheduler.admin.core.route.strategy;
 
 import com.yueshuo.scheduler.admin.core.route.ExecutorRouter;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.biz.model.TriggerParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.TriggerParam;
 
 import java.io.UnsupportedEncodingException;
 import java.security.MessageDigest;

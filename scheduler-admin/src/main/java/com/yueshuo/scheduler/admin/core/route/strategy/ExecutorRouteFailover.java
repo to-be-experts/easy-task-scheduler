@@ -3,9 +3,9 @@ package com.yueshuo.scheduler.admin.core.route.strategy;
 import com.yueshuo.scheduler.admin.core.scheduler.XxlJobScheduler;
 import com.yueshuo.scheduler.admin.core.route.ExecutorRouter;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
-import com.xxl.job.core.biz.ExecutorBiz;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.biz.model.TriggerParam;
+import com.yueshuo.scheduler.core.biz.ExecutorBiz;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.TriggerParam;
 
 import java.util.List;
 

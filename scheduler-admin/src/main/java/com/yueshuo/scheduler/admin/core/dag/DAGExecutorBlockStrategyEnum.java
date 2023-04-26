@@ -1,7 +1,6 @@
 package com.yueshuo.scheduler.admin.core.dag;
 
 import com.yueshuo.scheduler.admin.core.route.ExecutorRouter;
-import com.xxl.job.admin.core.route.strategy.*;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 
 public enum DAGExecutorBlockStrategyEnum {

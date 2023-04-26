@@ -2,7 +2,7 @@ package com.yueshuo.scheduler.admin.service;
 
 
 import com.yueshuo.scheduler.admin.core.model.XxlJobInfo;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 
 import java.util.Date;
 import java.util.Map;

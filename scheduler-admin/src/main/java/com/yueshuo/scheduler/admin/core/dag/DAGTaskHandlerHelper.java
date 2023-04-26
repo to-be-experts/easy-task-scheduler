@@ -1,7 +1,6 @@
 package com.yueshuo.scheduler.admin.core.dag;
 
 import com.yueshuo.scheduler.admin.core.conf.XxlJobAdminConfig;
-import com.xxl.job.admin.core.model.*;
 import com.yueshuo.scheduler.admin.core.model.*;
 import com.yueshuo.scheduler.admin.core.scheduler.XxlJobScheduler;
 import com.yueshuo.scheduler.admin.core.thread.JobTriggerPoolHelper;
@@ -9,13 +8,13 @@ import com.yueshuo.scheduler.admin.core.trigger.TriggerTypeEnum;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 import com.yueshuo.scheduler.admin.vo.JobDagInfoVO;
 import com.yueshuo.scheduler.admin.vo.Node;
-import com.xxl.job.core.biz.ExecutorBiz;
-import com.xxl.job.core.biz.client.ExecutorBizClient;
-import com.xxl.job.core.biz.model.IdleBeatParam;
-import com.xxl.job.core.biz.model.KillParam;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.util.DateUtil;
-import com.xxl.job.core.util.GsonTool;
+import com.yueshuo.scheduler.core.biz.ExecutorBiz;
+import com.yueshuo.scheduler.core.biz.client.ExecutorBizClient;
+import com.yueshuo.scheduler.core.biz.model.IdleBeatParam;
+import com.yueshuo.scheduler.core.biz.model.KillParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.util.DateUtil;
+import com.yueshuo.scheduler.core.util.GsonTool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

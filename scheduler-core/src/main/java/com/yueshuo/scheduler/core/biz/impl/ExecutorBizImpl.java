@@ -1,9 +1,6 @@
 package com.yueshuo.scheduler.core.biz.impl;
 
 import com.yueshuo.scheduler.core.biz.ExecutorBiz;
-import com.xxl.job.core.biz.model.*;
-import com.yueshuo.job.core.biz.model.*;
-import com.yueshuo.job.core.core.biz.model.*;
 import com.yueshuo.scheduler.core.biz.model.*;
 import com.yueshuo.scheduler.core.enums.ExecutorBlockStrategyEnum;
 import com.yueshuo.scheduler.core.executor.XxlJobExecutor;

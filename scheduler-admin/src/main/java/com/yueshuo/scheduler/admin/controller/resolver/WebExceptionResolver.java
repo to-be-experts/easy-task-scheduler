@@ -1,7 +1,7 @@
 package com.yueshuo.scheduler.admin.controller.resolver;
 
 import com.yueshuo.scheduler.admin.core.exception.XxlJobException;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import com.yueshuo.scheduler.admin.core.util.JacksonUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;

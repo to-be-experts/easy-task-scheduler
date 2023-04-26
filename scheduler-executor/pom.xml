@@ -18,4 +18,10 @@
         <module>java-sample</module>
     </modules>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.yueshuo</groupId>
+            <artifactId>scheduler-core</artifactId>
+        </dependency>
+    </dependencies>
 </project>

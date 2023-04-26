@@ -4,7 +4,7 @@ import com.yueshuo.scheduler.admin.core.model.PstDagJobRunRecordInfo;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 import com.yueshuo.scheduler.admin.dao.PstDagJobRunRecordDao;
 import com.yueshuo.scheduler.admin.service.PstDagJobRunRecordService;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.springframework.stereotype.Service;
 
 import javax.annotation.Resource;

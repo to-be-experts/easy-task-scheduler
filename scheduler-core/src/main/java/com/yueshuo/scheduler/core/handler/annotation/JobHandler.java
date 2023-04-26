@@ -1,4 +1,4 @@
-//package com.xxl.job.core.handler.annotation;
+//package com.yueshuo.scheduler.core.handler.annotation;
 //
 //import java.lang.annotation.ElementType;
 //import java.lang.annotation.Inherited;

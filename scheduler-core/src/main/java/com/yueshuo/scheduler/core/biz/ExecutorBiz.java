@@ -1,8 +1,5 @@
 package com.yueshuo.scheduler.core.biz;
 
-import com.xxl.job.core.biz.model.*;
-import com.yueshuo.job.core.biz.model.*;
-import com.yueshuo.job.core.core.biz.model.*;
 import com.yueshuo.scheduler.core.biz.model.*;
 
 /**

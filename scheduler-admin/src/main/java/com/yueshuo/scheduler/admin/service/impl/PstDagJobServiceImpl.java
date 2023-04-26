@@ -20,7 +20,7 @@ import com.yueshuo.scheduler.admin.dao.XxlJobInfoDao;
 import com.yueshuo.scheduler.admin.service.PstDagJobService;
 import com.yueshuo.scheduler.admin.vo.DAGJobInfoVO;
 import com.yueshuo.scheduler.admin.vo.Node;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Service;

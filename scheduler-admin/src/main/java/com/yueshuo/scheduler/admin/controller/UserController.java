@@ -7,7 +7,7 @@ import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 import com.yueshuo.scheduler.admin.dao.XxlJobGroupDao;
 import com.yueshuo.scheduler.admin.dao.XxlJobUserDao;
 import com.yueshuo.scheduler.admin.service.LoginService;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.util.DigestUtils;

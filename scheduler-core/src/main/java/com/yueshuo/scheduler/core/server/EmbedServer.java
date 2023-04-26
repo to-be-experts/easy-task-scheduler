@@ -2,9 +2,6 @@ package com.yueshuo.scheduler.core.server;
 
 import com.yueshuo.scheduler.core.biz.ExecutorBiz;
 import com.yueshuo.scheduler.core.biz.impl.ExecutorBizImpl;
-import com.xxl.job.core.biz.model.*;
-import com.yueshuo.job.core.biz.model.*;
-import com.yueshuo.job.core.core.biz.model.*;
 import com.yueshuo.scheduler.core.biz.model.*;
 import com.yueshuo.scheduler.core.thread.ExecutorRegistryThread;
 import com.yueshuo.scheduler.core.util.GsonTool;

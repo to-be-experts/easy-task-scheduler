@@ -9,7 +9,7 @@ import ch.qos.logback.core.ConsoleAppender;
 import ch.qos.logback.core.FileAppender;
 import ch.qos.logback.core.OutputStreamAppender;
 import com.google.common.collect.Lists;
-import com.xxl.job.core.util.DateUtil;
+import com.yueshuo.scheduler.core.util.DateUtil;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;
 import org.springframework.stereotype.Component;

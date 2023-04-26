@@ -2,12 +2,12 @@ package com.yueshuo.scheduler.admin.controller;
 
 import com.yueshuo.scheduler.admin.controller.annotation.PermissionLimit;
 import com.yueshuo.scheduler.admin.core.conf.XxlJobAdminConfig;
-import com.xxl.job.core.biz.AdminBiz;
-import com.xxl.job.core.biz.model.HandleCallbackParam;
-import com.xxl.job.core.biz.model.RegistryParam;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.util.GsonTool;
-import com.xxl.job.core.util.XxlJobRemotingUtil;
+import com.yueshuo.scheduler.core.biz.AdminBiz;
+import com.yueshuo.scheduler.core.biz.model.HandleCallbackParam;
+import com.yueshuo.scheduler.core.biz.model.RegistryParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.util.GsonTool;
+import com.yueshuo.scheduler.core.util.XxlJobRemotingUtil;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestBody;

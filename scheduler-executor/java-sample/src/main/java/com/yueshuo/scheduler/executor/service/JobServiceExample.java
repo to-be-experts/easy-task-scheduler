@@ -1,7 +1,7 @@
 package com.yueshuo.scheduler.executor.service;
 
-import com.xxl.job.core.context.XxlJobHelper;
-import com.xxl.job.core.handler.annotation.XxlJob;
+import com.yueshuo.scheduler.core.context.XxlJobHelper;
+import com.yueshuo.scheduler.core.handler.annotation.XxlJob;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

@@ -1,7 +1,7 @@
 package com.yueshuo.scheduler.admin.controller.websocket;
 
 import com.yueshuo.scheduler.admin.core.log.TailLogThread;
-import com.xxl.job.core.util.DateUtil;
+import com.yueshuo.scheduler.core.util.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.stereotype.Component;

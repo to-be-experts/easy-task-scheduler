@@ -2,10 +2,10 @@ package com.yueshuo.scheduler.admin.service.impl;
 
 import com.yueshuo.scheduler.admin.core.thread.JobCompleteHelper;
 import com.yueshuo.scheduler.admin.core.thread.JobRegistryHelper;
-import com.xxl.job.core.biz.AdminBiz;
-import com.xxl.job.core.biz.model.HandleCallbackParam;
-import com.xxl.job.core.biz.model.RegistryParam;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.AdminBiz;
+import com.yueshuo.scheduler.core.biz.model.HandleCallbackParam;
+import com.yueshuo.scheduler.core.biz.model.RegistryParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.springframework.stereotype.Service;
 
 import java.util.List;

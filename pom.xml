@@ -11,9 +11,9 @@
 	<url>https://www.xuxueli.com/</url>
 
 	<modules>
-		<module>scheduler-core</module>
-		<module>scheduler-admin</module>
-		<module>scheduler-executor</module>
+		<module>./scheduler-core</module>
+		<module>./scheduler-admin</module>
+		<module>./scheduler-executor</module>
     </modules>
 
 	<properties>
@@ -50,6 +50,15 @@
 		</plugins>
 	</build>
 
+	<dependencyManagement>
+		<dependencies>
+			<dependency>
+				<groupId>com.yueshuo</groupId>
+				<artifactId>scheduler-core</artifactId>
+				<version>1.0-SNAPSHOT</version>
+			</dependency>
+		</dependencies>
+	</dependencyManagement>
 
 	<licenses>
 		<license>
@@ -58,23 +67,7 @@
 		</license>
 	</licenses>
 
-	<scm>
-		<tag>master</tag>
-		<url>https://github.com/xuxueli/xxl-job.git</url>
-		<connection>scm:git:https://github.com/xuxueli/xxl-job.git</connection>
-		<developerConnection>scm:git:git@github.com:xuxueli/xxl-job.git</developerConnection>
-	</scm>
-	<developers>
-		<developer>
-			<id>XXL</id>
-			<name>xuxueli</name>
-			<email>931591021@qq.com</email>
-			<url>https://github.com/xuxueli</url>
-		</developer>
-	</developers>
-
 	<profiles>
-
 		<profile>
 			<id>release</id>
 			<build>
@@ -90,23 +83,6 @@
 								<goals>
 									<goal>jar-no-fork</goal>
 								</goals>
-							</execution>
-						</executions>
-					</plugin>
-					<!-- Javadoc -->
-					<plugin>
-						<groupId>org.apache.maven.plugins</groupId>
-						<artifactId>maven-javadoc-plugin</artifactId>
-						<version>${maven-javadoc-plugin.version}</version>
-						<executions>
-							<execution>
-								<phase>package</phase>
-								<goals>
-									<goal>jar</goal>
-								</goals>
-								<configuration>
-									<doclint>none</doclint>
-								</configuration>
 							</execution>
 						</executions>
 					</plugin>

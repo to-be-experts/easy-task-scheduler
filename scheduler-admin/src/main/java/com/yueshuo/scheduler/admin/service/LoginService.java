@@ -5,7 +5,7 @@ import com.yueshuo.scheduler.admin.core.util.CookieUtil;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 import com.yueshuo.scheduler.admin.core.util.JacksonUtil;
 import com.yueshuo.scheduler.admin.dao.XxlJobUserDao;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.springframework.context.annotation.Configuration;
 import org.springframework.util.DigestUtils;
 

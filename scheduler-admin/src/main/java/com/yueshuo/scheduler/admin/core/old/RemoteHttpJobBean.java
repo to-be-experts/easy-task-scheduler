@@ -1,7 +1,7 @@
-//package com.xxl.job.admin.core.jobbean;
+//package com.yueshuo.scheduler.admin.core.jobbean;
 //
-//import com.xxl.job.admin.core.thread.JobTriggerPoolHelper;
-//import com.xxl.job.admin.core.trigger.TriggerTypeEnum;
+//import com.yueshuo.scheduler.admin.core.thread.JobTriggerPoolHelper;
+//import com.yueshuo.scheduler.admin.core.trigger.TriggerTypeEnum;
 //import org.quartz.JobExecutionContext;
 //import org.quartz.JobExecutionException;
 //import org.quartz.JobKey;

@@ -1,12 +1,11 @@
 package com.yueshuo.scheduler.admin.core.scheduler;
 
 import com.yueshuo.scheduler.admin.core.conf.XxlJobAdminConfig;
-import com.xxl.job.admin.core.thread.*;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
-import com.xxl.job.core.biz.ExecutorBiz;
-import com.xxl.job.core.biz.client.ExecutorBizClient;
-import com.xxl.job.core.enums.ExecutorBlockStrategyEnum;
 import com.yueshuo.scheduler.admin.core.thread.*;
+import com.yueshuo.scheduler.core.biz.ExecutorBiz;
+import com.yueshuo.scheduler.core.biz.client.ExecutorBizClient;
+import com.yueshuo.scheduler.core.enums.ExecutorBlockStrategyEnum;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -4,9 +4,9 @@ import com.yueshuo.scheduler.admin.core.complete.XxlJobCompleter;
 import com.yueshuo.scheduler.admin.core.conf.XxlJobAdminConfig;
 import com.yueshuo.scheduler.admin.core.model.XxlJobLog;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
-import com.xxl.job.core.biz.model.HandleCallbackParam;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.util.DateUtil;
+import com.yueshuo.scheduler.core.biz.model.HandleCallbackParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.util.DateUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

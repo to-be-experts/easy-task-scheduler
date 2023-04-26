@@ -4,7 +4,7 @@ import com.yueshuo.scheduler.admin.core.model.PstDagJobInfo;
 import com.yueshuo.scheduler.admin.vo.Edge;
 import com.yueshuo.scheduler.admin.vo.JobDagInfoVO;
 import com.yueshuo.scheduler.admin.vo.Node;
-import com.xxl.job.core.util.GsonTool;
+import com.yueshuo.scheduler.core.util.GsonTool;
 
 import java.util.ArrayList;
 import java.util.List;

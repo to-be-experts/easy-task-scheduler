@@ -9,7 +9,7 @@ import com.yueshuo.scheduler.admin.core.model.PstDagJobRunRecordInfo;
 import com.yueshuo.scheduler.admin.core.model.XxlJobInfo;
 import com.yueshuo.scheduler.admin.vo.JobDagInfoVO;
 import com.yueshuo.scheduler.admin.vo.Node;
-import com.xxl.job.core.util.GsonTool;
+import com.yueshuo.scheduler.core.util.GsonTool;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,10 +1,7 @@
 package com.yueshuo.scheduler.core.biz.client;
 
 import com.yueshuo.scheduler.core.biz.ExecutorBiz;
-import com.yueshuo.job.core.biz.model.*;
-import com.xxl.job.core.biz.model.*;
 import com.yueshuo.scheduler.core.util.XxlJobRemotingUtil;
-import com.yueshuo.job.core.core.biz.model.*;
 import com.yueshuo.scheduler.core.biz.model.*;
 
 /**

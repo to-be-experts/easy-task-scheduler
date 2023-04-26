@@ -7,12 +7,12 @@ import com.yueshuo.scheduler.admin.core.model.XxlJobLog;
 import com.yueshuo.scheduler.admin.core.route.ExecutorRouteStrategyEnum;
 import com.yueshuo.scheduler.admin.core.scheduler.XxlJobScheduler;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
-import com.xxl.job.core.biz.ExecutorBiz;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.biz.model.TriggerParam;
-import com.xxl.job.core.enums.ExecutorBlockStrategyEnum;
-import com.xxl.job.core.util.IpUtil;
-import com.xxl.job.core.util.ThrowableUtil;
+import com.yueshuo.scheduler.core.biz.ExecutorBiz;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.TriggerParam;
+import com.yueshuo.scheduler.core.enums.ExecutorBlockStrategyEnum;
+import com.yueshuo.scheduler.core.util.IpUtil;
+import com.yueshuo.scheduler.core.util.ThrowableUtil;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

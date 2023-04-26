@@ -43,11 +43,9 @@
             <scope>test</scope>
         </dependency>
 
-        <!-- xxl-job-core -->
         <dependency>
-            <groupId>com.xuxueli</groupId>
-            <artifactId>xxl-job-core</artifactId>
-            <version>${project.parent.version}</version>
+            <groupId>com.yueshuo</groupId>
+            <artifactId>scheduler-core</artifactId>
         </dependency>
 
         <!-- mybatis-starter：mybatis + mybatis-spring + hikari（default） -->

@@ -1,12 +1,12 @@
-package com.xxl.job.adminbiz;
+package com.yueshuo.scheduler.adminbiz;
 
-import com.xxl.job.core.biz.AdminBiz;
-import com.xxl.job.core.biz.client.AdminBizClient;
-import com.xxl.job.core.biz.model.HandleCallbackParam;
-import com.xxl.job.core.biz.model.RegistryParam;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.context.XxlJobContext;
-import com.xxl.job.core.enums.RegistryConfig;
+import com.yueshuo.scheduler.core.biz.AdminBiz;
+import com.yueshuo.scheduler.core.biz.client.AdminBizClient;
+import com.yueshuo.scheduler.core.biz.model.HandleCallbackParam;
+import com.yueshuo.scheduler.core.biz.model.RegistryParam;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.context.XxlJobContext;
+import com.yueshuo.scheduler.core.enums.RegistryConfig;
 import org.junit.jupiter.api.Test;
 
 import java.util.Arrays;

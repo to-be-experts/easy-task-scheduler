@@ -2,7 +2,7 @@ package com.yueshuo.scheduler.admin.service;
 
 import com.yueshuo.scheduler.admin.core.model.PstDagJobInfo;
 import com.yueshuo.scheduler.admin.core.model.PstDagJobRunRecordInfo;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 
 import java.util.List;
 import java.util.Map;
@@ -88,7 +88,7 @@ public interface PstDagJobService {
      * @param record
      * @return
      */
-    public ReturnT<String> SkipCurrStep(int jobId,String record) ;
+    public ReturnT<String> SkipCurrStep(int jobId, String record) ;
 
     /**
      * stop job

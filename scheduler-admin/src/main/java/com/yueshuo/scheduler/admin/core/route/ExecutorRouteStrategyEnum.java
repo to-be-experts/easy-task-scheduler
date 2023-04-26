@@ -1,6 +1,5 @@
 package com.yueshuo.scheduler.admin.core.route;
 
-import com.xxl.job.admin.core.route.strategy.*;
 import com.yueshuo.scheduler.admin.core.route.strategy.*;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
 

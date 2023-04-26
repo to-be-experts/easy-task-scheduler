@@ -7,8 +7,8 @@ import com.yueshuo.scheduler.admin.core.model.XxlJobLog;
 import com.yueshuo.scheduler.admin.core.thread.JobTriggerPoolHelper;
 import com.yueshuo.scheduler.admin.core.trigger.TriggerTypeEnum;
 import com.yueshuo.scheduler.admin.core.util.I18nUtil;
-import com.xxl.job.core.biz.model.ReturnT;
-import com.xxl.job.core.context.XxlJobContext;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.context.XxlJobContext;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 

@@ -1,6 +1,6 @@
 package com.yueshuo.scheduler.executor.config;
 
-import com.xxl.job.core.executor.impl.XxlJobSpringExecutor;
+import com.yueshuo.scheduler.core.executor.impl.XxlJobSpringExecutor;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

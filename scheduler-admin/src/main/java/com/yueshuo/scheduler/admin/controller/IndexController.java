@@ -3,7 +3,7 @@ package com.yueshuo.scheduler.admin.controller;
 import com.yueshuo.scheduler.admin.controller.annotation.PermissionLimit;
 import com.yueshuo.scheduler.admin.service.LoginService;
 import com.yueshuo.scheduler.admin.service.XxlJobService;
-import com.xxl.job.core.biz.model.ReturnT;
+import com.yueshuo.scheduler.core.biz.model.ReturnT;
 import org.springframework.beans.propertyeditors.CustomDateEditor;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

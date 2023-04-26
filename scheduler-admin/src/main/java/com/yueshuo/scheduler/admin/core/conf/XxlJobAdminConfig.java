@@ -2,7 +2,6 @@ package com.yueshuo.scheduler.admin.core.conf;
 
 import com.yueshuo.scheduler.admin.core.alarm.JobAlarmer;
 import com.yueshuo.scheduler.admin.core.scheduler.XxlJobScheduler;
-import com.xxl.job.admin.dao.*;
 import com.yueshuo.scheduler.admin.dao.*;
 import org.springframework.beans.factory.DisposableBean;
 import org.springframework.beans.factory.InitializingBean;
