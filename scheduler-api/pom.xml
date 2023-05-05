@@ -90,7 +90,7 @@
 
 	<build>
 		<!--指定打成的jar包名称-->
-		<finalName>job-admin</finalName>
+		<finalName>easy-task-scheduler-api</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>

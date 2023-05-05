@@ -36,7 +36,7 @@
 		t.last_run_status,
 		t.last_run_record,
 		t.last_run_msg,
-		T.last_run_time,
+		t.last_run_time,
 		t.trigger_last_time,
 		t.trigger_next_time,
 		t.curr_run_record,

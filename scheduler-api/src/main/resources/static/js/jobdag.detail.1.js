@@ -181,7 +181,7 @@ function loadRunDataTimeLimit(){
 	$.ajax({
 		type : 'POST',
 		timeout : 3000,
-		url: base_url + "/dagjob/loadRunDataTimeLimit",
+		url: base_url + "/dag/loadRunDataTimeLimit",
 		data : {
 			"id":$("#dagJobId").val(),
 			"size":10
@@ -243,7 +243,7 @@ function initDAGJobNodes(){
 	$.ajax({
 		type : 'POST',
 		timeout : 3000,
-		url: base_url + "/dagjob/getById",
+		url: base_url + "/dag/getById",
 		data : {
 			"id":$("#dagJobId").val()
 		},
@@ -897,7 +897,7 @@ function saveNodes(){
 		"links":workflow.links
 	}
 	$.ajax({
-		url: base_url+"/dagjob/updateDagInfo",
+		url: base_url+"/dag/updateDagInfo",
 		type: "POST",
 		data: JSON.stringify(dagInfo),
 		dataType: "json",
@@ -1000,7 +1000,7 @@ function toKillJobIde(index){
 			}
 			$.ajax({
 				type : 'POST',
-				url : base_url + "/dagjob/toNextStep",
+				url : base_url + "/dag/toNextStep",
 				data : {
 					"jobId" : jobId,
 					"record" : record,
@@ -1035,7 +1035,7 @@ function toKillJobIde(index){
 			}
 			$.ajax({
 				type : 'POST',
-				url : base_url + "/dagjob/kill",
+				url : base_url + "/dag/kill",
 				data : {
 					"jobId" : jobId,
 					"record" : record,
@@ -1071,7 +1071,7 @@ function doRunOneTime(){
 	}
 	$.ajax({
 		type : 'POST',
-		url : base_url + "/dagjob/triggerOneTime",
+		url : base_url + "/dag/triggerOneTime",
 		data : {
 			"dagJobId":dagJobId,
 			"jobId" : jobId,
@@ -1107,7 +1107,7 @@ function doRunRecord(index){
 	}
 	$.ajax({
 		type : 'POST',
-		url : base_url + "/dagjob/triggerAgain",
+		url : base_url + "/dag/triggerAgain",
 		data : {
 			"jobId" : jobId,
 			"record" : record,
@@ -1265,7 +1265,7 @@ function triggerJob(){
 	layer.confirm('确认要调度一次吗?', {icon: 3, title:'操作提示'}, function(index){
 		$.ajax({
 			type : 'POST',
-			url : base_url + "/dagjob/trigger",
+			url : base_url + "/dag/trigger",
 			data : {
 				"id" : dagJobId,
 				"executorParam" : "",

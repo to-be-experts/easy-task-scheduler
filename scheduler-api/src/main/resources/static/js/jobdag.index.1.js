@@ -5,7 +5,7 @@ $(function() {
 		"processing" : true,
 		"serverSide": true,
 		"ajax": {
-			url: base_url + "/dagjob/pageList",
+			url: base_url + "/dag/pageList",
 			type:"post",
 			data : function ( d ) {
 				var obj = {};
@@ -215,15 +215,15 @@ $(function() {
 		var type = $(this).attr("_type");
 		if ("job_pause" == type) {
 			typeName = I18n.jobinfo_opt_stop ;
-			url = base_url + "/dagjob/stop";
+			url = base_url + "/dag/stop";
 			needFresh = true;
 		} else if ("job_resume" == type) {
 			typeName = I18n.jobinfo_opt_start ;
-			url = base_url + "/dagjob/start";
+			url = base_url + "/dag/start";
 			needFresh = true;
 		} else if ("job_del" == type) {
 			typeName = I18n.system_opt_del ;
-			url = base_url + "/dagjob/remove";
+			url = base_url + "/dag/remove";
 			needFresh = true;
 		} else {
 			return;
@@ -273,7 +273,7 @@ $(function() {
 		}
 		var id = $(this).parents('ul').attr("_id");
 		var row = tableData['key'+id];
-		var dagUrl = base_url +'/dagjob/detail?jobId='+ row.id+'&jobName='+row.jobName;
+		var dagUrl = base_url +'/dag/detail?jobId='+ row.id+'&jobName='+row.jobName;
 		let dialogIndex = layer.open({
 			type: 2,
 			title: '调度设计器',
@@ -291,7 +291,7 @@ $(function() {
 		layer.confirm('确认要调度一次吗?', {icon: 3, title:'操作提示'}, function(index){
 			$.ajax({
 				type : 'POST',
-				url : base_url + "/dagjob/trigger",
+				url : base_url + "/dag/trigger",
 				data : {
 					"id" : row.id,
 					"executorParam" : row.executorParam,
@@ -319,7 +319,7 @@ $(function() {
 	$("#jobTriggerModal .ok").on('click',function() {
 		$.ajax({
 			type : 'POST',
-			url : base_url + "/dagjob/trigger",
+			url : base_url + "/dag/trigger",
 			data : {
 				"id" : $("#jobTriggerModal .form input[name='id']").val(),
 				"executorParam" : $("#jobTriggerModal .textarea[name='executorParam']").val(),
@@ -500,7 +500,7 @@ $(function() {
 			// }
 			// $("#addModal .form input[name='scheduleConf']").val( scheduleConf );
 
-			$.post(base_url + "/dagjob/add",  $("#addModal .form").serialize(), function(data, status) {
+			$.post(base_url + "/dag/add",  $("#addModal .form").serialize(), function(data, status) {
 				if (data.code == "200") {
 					$('#addModal').modal('hide');
 					layer.open({
@@ -648,7 +648,7 @@ $(function() {
 
 
 			// post
-			$.post(base_url + "/dagjob/update", $("#updateModal .form").serialize(), function(data, status) {
+			$.post(base_url + "/dag/update", $("#updateModal .form").serialize(), function(data, status) {
 				if (data.code == "200") {
 					$('#updateModal').modal('hide');
 					layer.open({

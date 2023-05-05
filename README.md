@@ -2,7 +2,8 @@
 
 # Introduction
 easy-task-schedule是一个分布式任务调度框架、参考了xxl-job、schedule-x的设计实现。
-
+- 修改前端样式
+- 
 # Install
 
 # Connect

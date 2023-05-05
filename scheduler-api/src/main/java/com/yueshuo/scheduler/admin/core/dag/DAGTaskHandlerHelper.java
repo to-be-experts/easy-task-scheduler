@@ -65,7 +65,7 @@ public class DAGTaskHandlerHelper {
                         dagJob.setLastRunMsg(" 运行结束：成功 " );
                         dagJob.setLastRunRecord(recordInfo.getRunRecord());
                         dagJobInfo.setLastRunStatus(1);
-                        //dagJob.setLastRunTime(new Date());
+                        //dag.setLastRunTime(new Date());
 
                         dagJob.setCurrRunRecord("");
                         XxlJobAdminConfig.getAdminConfig().getDagJobInfoDao().updateRunStatusInfo(dagJob) ;
@@ -137,7 +137,7 @@ public class DAGTaskHandlerHelper {
                             dagJob.setLastRunMsg(" 运行结束：成功 " );
                             dagJob.setLastRunRecord(recordInfo.getRunRecord());
                             dagJob.setLastRunStatus(1);
-                            ///dagJob.setLastRunTime(new Date());
+                            ///dag.setLastRunTime(new Date());
 
                             dagJob.setCurrRunRecord("");
                             XxlJobAdminConfig.getAdminConfig().getDagJobInfoDao().updateRunStatusInfo(dagJob) ;
@@ -208,7 +208,7 @@ public class DAGTaskHandlerHelper {
                         dagJob.setLastRunMsg(" 运行结束：成功 " );
                         dagJob.setLastRunRecord(recordInfo.getRunRecord());
                         dagJob.setLastRunStatus(1);
-                        //dagJob.setLastRunTime(new Date());
+                        //dag.setLastRunTime(new Date());
 
                         dagJob.setCurrRunRecord("");
                         XxlJobAdminConfig.getAdminConfig().getDagJobInfoDao().updateRunStatusInfo(dagJob) ;
@@ -251,7 +251,7 @@ public class DAGTaskHandlerHelper {
             dagJob.setLastRunMsg("运行失败：失败节点JOB ID 为 ："+ recordInfo.getJobId() );
             dagJob.setLastRunRecord(recordInfo.getRunRecord());
             dagJob.setLastRunStatus(2);
-            //dagJob.setLastRunTime(new Date());
+            //dag.setLastRunTime(new Date());
 
             XxlJobAdminConfig.getAdminConfig().getDagJobInfoDao().updateRunStatusInfo(dagJob) ;
         }
@@ -274,7 +274,7 @@ public class DAGTaskHandlerHelper {
             dagJob.setLastRunMsg("运行失败：失败节点JOB ID 为 ："+ recordInfo.getJobId() );
             dagJob.setLastRunRecord(recordInfo.getRunRecord());
             dagJob.setLastRunStatus(2);
-            //dagJob.setLastRunTime(new Date());
+            //dag.setLastRunTime(new Date());
 
             XxlJobAdminConfig.getAdminConfig().getDagJobInfoDao().updateRunStatusInfo(dagJob) ;
         }
